@@ -79,7 +79,7 @@ jobs:
       uses: anchore/scan-action@v4.1.0
       id: scan
       with:
-        image: "hipages/php-fpm_exporter:latest"
+        image: "ministryofjustice/php-fpm_exporter:latest"
         acs-report-enable: true
         fail-build: false
 
